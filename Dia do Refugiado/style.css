@@ -1,0 +1,77 @@
+  @import url('https://fonts.googleapis.com/css2?family=Signika+Negative:wght@500&family=Titillium+Web:wght@200;300&display=swap');
+
+  * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      text-decoration: none;
+  }
+
+  body {
+      font-family: 'Signika Negative', sans-serif;
+      font-size: 100%;
+      background: rgb(236, 247, 136);
+      background: -moz-radial-gradient(circle, rgba(236, 247, 136, 1) 0%, rgba(244, 242, 207, 1) 100%);
+      background: -webkit-radial-gradient(circle, rgba(236, 247, 136, 1) 0%, rgba(244, 242, 207, 1) 100%);
+      background: radial-gradient(circle, rgba(236, 247, 136, 1) 0%, rgba(244, 242, 207, 1) 100%);
+      filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ecf788", endColorstr="#f4f2cf", GradientType=1);
+  }
+
+
+  .cabecalho {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-around;
+      padding: 24px;
+  }
+
+  .conteudo-principal {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-around;
+
+  }
+
+  .refugiados {
+      margin-right: 40px;
+      margin-top: 60px;
+      border-radius: 4%;
+  }
+
+  .menu-item {
+      margin-left: 40px;
+  }
+
+
+  #btnn {
+      border: 2px solid rgb(0, 0, 0);
+      padding: 10px;
+      border-radius: 15px;
+      margin-left: 290px;
+      width: 130px;
+      height: 50px;
+      border: none;
+      font-family: 'Signika Negative', sans-serif;
+      font-size: 15px;
+      cursor: pointer;
+  }
+
+  #btnn {
+      background-color: rgb(114, 126, 62);
+      color: rgb(248, 248, 248);
+  }
+
+  .a:link, .menu-item, .avivar {
+    color: #000000;
+      text-decoration: none;
+  }
+
+  .a:visited, .menu-item, .avivar  {
+    color: rgb(0, 0, 0)
+  }
+
+
+
+ 

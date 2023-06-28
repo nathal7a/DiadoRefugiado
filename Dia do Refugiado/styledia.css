@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Signika+Negative:wght@500&family=Titillium+Web:wght@200;300&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+body{
+  font-family: 'Signika Negative', sans-serif;
+  font-size: 100%;
+  background: rgb(236,247,136);
+  background: -moz-radial-gradient(circle, rgba(236,247,136,1) 0%, rgba(244,242,207,1) 100%);
+  background: -webkit-radial-gradient(circle, rgba(236,247,136,1) 0%, rgba(244,242,207,1) 100%);
+  background: radial-gradient(circle, rgba(236,247,136,1) 0%, rgba(244,242,207,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ecf788",endColorstr="#f4f2cf",GradientType=1);
+}
+
+.cabecalho{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  padding: 24px;
+}
+
+.menu-item{
+    margin-left: 40px;
+ }
+
+ .titulo{
+    margin-left: 20px;
+    margin-bottom: 50px;
+    margin-top: 60px;
+    font-size: 200%;
+ }
+
+ .imagem1{
+    justify-content: center;
+    display: flex;
+    margin-bottom: 50px;
+ }
+
+ .texto1, .texto2{
+  margin-left: 15px;
+  font-weight: lighter;
+ }
+
+ .texto1{
+    font-size: 20px;
+    
+ }
+
+ .fotocrianca{
+    margin-left: 30px;
+    margin-top: 20px;
+ }
+
+ .texto2{
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+ }
+
+ .a:link, .menu-item, .avivar {
+   color: #000000;
+     text-decoration: none;
+ }
+
+ .a:visited, .menu-item, .avivar  {
+   color: rgb(0, 0, 0)
+ }

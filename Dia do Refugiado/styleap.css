@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Signika+Negative:wght@500&family=Titillium+Web:wght@200;300&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+    font-family: 'Signika Negative', sans-serif;
+    font-size: 100%;
+    background: rgb(236,247,136);
+    background: -moz-radial-gradient(circle, rgba(236,247,136,1) 0%, rgba(244,242,207,1) 100%);
+    background: -webkit-radial-gradient(circle, rgba(236,247,136,1) 0%, rgba(244,242,207,1) 100%);
+    background: radial-gradient(circle, rgba(236,247,136,1) 0%, rgba(244,242,207,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ecf788",endColorstr="#f4f2cf",GradientType=1);
+}
+
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+}
+
+.menu-item{
+    margin-left: 40px;
+ }
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    margin-top: 50px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h2{
+    margin-left: 20px;
+    margin-top: 20px;
+    font-size: 120%;
+}
+.ong-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.ong-list-item {
+    margin-bottom: 10px;
+}
+
+.ong-link {
+    display: inline-block;
+    padding: 8px 12px;
+    background-color:  rgb(114, 126, 62);
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+.ong-link:hover {
+    background-color:  rgb(114, 126, 62);
+}
+
+.a:link, .menu-item, .avivar {
+    color: #000000;
+      text-decoration: none;
+  }
+
+  .a:visited, .menu-item, .avivar  {
+    color: rgb(0, 0, 0)
+  }
